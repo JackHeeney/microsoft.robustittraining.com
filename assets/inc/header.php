@@ -1,3 +1,18 @@
+<?php
+
+/***************************************************
+ * 
+ * microsoft.robustittraining.com
+ * @version v1.0.0
+ * @author Jack Heeney
+ * @page index.php
+ * Copyright 2021 Robust IT Training
+ * 
+ ***************************************************/
+
+?>
+<?php define("SITE_ADDR", "http://localhost/microsoft.robustittraining.com"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
