@@ -1,6 +1,6 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Robust IT</h5>
         <button type="button" class="btn-close text-reset float-end" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
     </div>
@@ -61,11 +61,13 @@
     </div>
 </header>
 
-<div class="container-fluid navbar-light bg-light">
+<div class="container-fluid navbar-light bg-white shadow">
     <div class="container">
         <nav class="navbar sticky-top navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"><img
+                        src="<?php echo SITE_ADDR ?>/assets/img/microsoft-gold-partner.jpg" class="img-fluid"
+                        alt="microsoft gold partners"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <span class="navbar-toggler-icon"></span>
@@ -91,12 +93,32 @@
                                     All Courses
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Server</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloud</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Security</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Azure</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">SQL</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Coding</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Desktop</a></li>
+
                                 </ul>
                             </li>
                             <li class="nav-item">

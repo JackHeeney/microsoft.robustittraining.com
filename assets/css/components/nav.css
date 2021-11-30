@@ -70,6 +70,7 @@ body.offcanvas-active {
   font-variant: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+  margin: 10px 20px;
 }
 
 .email::before {
@@ -86,4 +87,20 @@ body.offcanvas-active {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f3cd";
+}
+
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 325px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
 }
