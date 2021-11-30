@@ -1,0 +1,19 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:        Microsoft Robust IT Training
+Version:        1.0.0
+Last change:    30/11/21 [fixed issue]
+Assigned to:    Jack Heeney
+
+[Table of contents]
+
+1. main
+2. nav
+
+
+-------------------------------------------------------------------*/
+
+@import url(../css/components/main.css);
+@import url(../css/components/nav.css);
+@import url(../css/components/hero.css);

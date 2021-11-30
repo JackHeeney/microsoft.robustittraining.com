@@ -1,0 +1,27 @@
+{
+  "name": "microsoft.robustittraining.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss assets/css/style.css --dir public --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackHeeney/microsoft.robustittraining.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackHeeney/microsoft.robustittraining.com/issues"
+  },
+  "homepage": "https://github.com/JackHeeney/microsoft.robustittraining.com#readme",
+  "devDependencies": {
+    "cssnano": "^5.0.12",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.0.1"
+  }
+}

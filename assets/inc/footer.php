@@ -35,8 +35,9 @@ function showResult(str) {
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script src="<? echo SITE_ADDR ?>/assets/js/main.js"></script>
-</body>
+
 <script src="<? echo SITE_ADDR ?>/assets/js/vendor/aos.js"></script>
+
 </body>
 
 </html>

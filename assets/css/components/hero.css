@@ -1,0 +1,81 @@
+/*****************************
+ *           hero            *
+ *****************************/
+#hero .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#hero .swiperHero .swiper-slide {
+  text-align: center;
+  font-size: 1rem;
+  background: #f1f1f1;
+  height: 75vh;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#hero .swiper-slide h1 {
+  color: #fff;
+}
+
+#hero .swiper-slide h3 {
+  color: #fff;
+}
+
+#hero .swiper-slide p {
+  color: #fff;
+}
+
+#hero .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hero .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: var(--bs-primary) !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transform-origin: left top;
+}
+
+#hero .swiper-button-prev,
+#hero .swiper-button-next {
+  display: none;
+  transition: 500ms ease-in-out;
+}
+
+#hero .swiper:hover .swiper-button-prev,
+#hero .swiper:hover .swiper-button-next {
+  color: var(--bs-primary);
+  display: block;
+}
+
+#hero a i {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+#hero a:hover i {
+  position: relative;
+  opacity: 1;
+  transform: translateX(5px) !important;
+  transition: ease-in-out 500ms;
+}
